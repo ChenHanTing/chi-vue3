@@ -15,6 +15,7 @@ HelloWorld(msg='Welcome to Your Vue.js App')
 </script>
 
 <style lang="scss">
+/* 進入點 */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

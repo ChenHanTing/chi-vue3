@@ -1,6 +1,14 @@
 <template lang="pug">
-#nav
-  router-link(to="/") Home
-  router-link(to="/about") About
+Navbar
 router-view
 </template>
+
+<script>
+import Navbar from '@/components/Navbar'
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
